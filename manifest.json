@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "KMITL AUTHEN",
+    "description": "Auto authen",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon/icon.png"
+    },
+    "permissions": [
+                    "activeTab",
+                    "tabs",
+                    "https://mylogin.kmitl.ac.th:8445/*"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
